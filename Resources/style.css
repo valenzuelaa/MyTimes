@@ -1,0 +1,47 @@
+body{
+
+}
+
+h1{
+
+}
+
+p{
+
+}
+
+.header{
+
+}
+
+.Logo{
+
+}
+
+.navigation{
+
+}
+
+.content, p{
+  border: 1px solid black;
+  display: flex;
+}
+
+.column{
+  border: 1px solid black;
+}
+
+.large{
+  display: flex;
+  width: 630px;
+}
+
+.medium{
+  display: flex;
+  width: 300px;
+}
+
+.small{
+  display: flex;
+  width: 240px;
+}
