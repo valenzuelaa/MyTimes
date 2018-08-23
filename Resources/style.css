@@ -19,26 +19,34 @@ p{
 
 .logo{
   color: MediumAquamarine;
+  display: flex;
 
 }
 
-.menu{
+.navigation{
   display: inline-block;
+
 }
 
-.content, p{
+.content{
   border: 1px solid black;
   display: flex;
 }
 
+div{
+  border: 1px solid red;
+}
+
 .column{
   border: 1px solid black;
+
 }
 
 .column.large{
   display: flex;
   width: 630px;
 }
+
 
 .column.medium{
   display: flex;
@@ -48,7 +56,11 @@ p{
 .column.small{
   display: flex;
   width: 240px;
+  flex-direction: column;
+  border: 1px 0px;
+
 }
+
 
 .funny{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png" );
