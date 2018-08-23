@@ -11,15 +11,14 @@ p{
 }
 
 .header{
-
+  display: flex;
 }
 
 .Logo{
-
 }
 
 .navigation{
-
+  align-items: flex-end;
 }
 
 .content, p{
@@ -31,17 +30,40 @@ p{
   border: 1px solid black;
 }
 
-.large{
+.column .large{
   display: flex;
   width: 630px;
 }
 
-.medium{
+.column .medium{
   display: flex;
   width: 300px;
 }
 
-.small{
+.column .small{
   display: flex;
   width: 240px;
+}
+
+.funny{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png" );
+  display: flex;
+  color:white;
+
+}
+
+.earth{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+
+.camera{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+
+.cat{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+.cookie{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png);
 }
